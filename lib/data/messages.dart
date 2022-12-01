@@ -2,7 +2,7 @@ import 'package:animated_login/models/message.dart';
 
 List<Message> staticMessages = [
   Message(
-    contact: "Hosain Abdellatif",
+    contact: "Carolina Alvarez",
     messageTitle: "App Development",
     message:
         "Hi, Here are our requirments for the app development regarding the deisgn and the functionality",
@@ -11,7 +11,7 @@ List<Message> staticMessages = [
     active: true,
   ),
   Message(
-    contact: "Ahmed Ali",
+    contact: "Andrea Tagliafico",
     messageTitle: "UI Design",
     message: "Hi Ahmed, We want to complete the design of the UI of the app",
     date: "16 Jun",
@@ -19,7 +19,7 @@ List<Message> staticMessages = [
     image: "assets/images/avatar_2.png",
   ),
   Message(
-    contact: "Hossam Omar",
+    contact: "Leandro Paredes",
     messageTitle: "System improvment",
     message: "Hello Hossam, How you doing ?",
     date: "29 Aug",
@@ -27,7 +27,7 @@ List<Message> staticMessages = [
     image: "assets/images/avatar_3.png",
   ),
   Message(
-    contact: "Samy",
+    contact: "Ezequiel Palacios",
     messageTitle: "UI-UX",
     message: "Hi Samy, Can I ask you something?",
     date: "17 Sep",
@@ -35,7 +35,7 @@ List<Message> staticMessages = [
     image: "assets/images/avatar_5.png",
   ),
   Message(
-    contact: "Ali Sayed",
+    contact: "Juan Foyth",
     messageTitle: "Quality testing",
     message: "Hi How are you ?",
     date: "16 Jun",
@@ -43,7 +43,7 @@ List<Message> staticMessages = [
     image: "assets/images/avatar_4.png",
   ),
   Message(
-    contact: "Muhammad Ali",
+    contact: "Andrea Martinez",
     messageTitle: "UI Design",
     message: "Hi, I have the design tampletes for our project",
     date: "30 Sep",
@@ -51,7 +51,7 @@ List<Message> staticMessages = [
     image: "assets/images/avatar_3.png",
   ),
   Message(
-    contact: "Jamil Nour",
+    contact: "Jamil de Paul",
     messageTitle: "Android development",
     message:
         "Hi, Here are our requirments for the app development regarding the deisgn and the functionality",
@@ -60,7 +60,7 @@ List<Message> staticMessages = [
     active: true,
   ),
   Message(
-    contact: "Samy",
+    contact: "Samy Batistuta",
     messageTitle: "UI-UX",
     message: "Hi Samy, Can I ask you something?",
     date: "17 Sep",
