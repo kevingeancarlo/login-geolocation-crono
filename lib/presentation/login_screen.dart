@@ -4,6 +4,8 @@ import 'package:animated_login/presentation/widgets/messages_screen.dart';
 import 'package:animated_login/presentation/widgets/password_field.dart';
 import 'package:flutter/material.dart';
 
+import 'package:animated_login/presentation/widgets/home_page.dart';
+
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
@@ -51,8 +53,8 @@ class _LoginScreenState extends State<LoginScreen> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Icon(Icons.satellite_alt,
-                                  size: 60,
-                                  color: Color.fromARGB(255, 63, 116, 214)),
+                                  size: 80,
+                                  color: Color.fromARGB(255, 63, 73, 214)),
                               SizedBox(height: 25),
                               Text(
                                 "Bienvenid@,",
@@ -104,6 +106,16 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
               ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => HomePage()),
+          );
+        },
+        backgroundColor: Colors.green,
+        child: const Icon(Icons.navigation_sharp),
       ),
     );
   }

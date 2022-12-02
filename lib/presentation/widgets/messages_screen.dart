@@ -1,6 +1,8 @@
 import 'package:animated_login/presentation/widgets/messages_list.dart';
 import 'package:flutter/material.dart';
 
+import 'package:animated_login/presentation/widgets/home_page.dart';
+
 class MessagesScreen extends StatefulWidget {
   const MessagesScreen({super.key});
 
@@ -29,6 +31,18 @@ class _MessagesScreenState extends State<MessagesScreen> {
   Widget build(BuildContext context) {
     return Stack(
       children: [
+        /* Scaffold(
+          floatingActionButton: FloatingActionButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => HomePage()),
+              );
+            },
+            backgroundColor: Colors.green,
+            child: const Icon(Icons.navigation_sharp),
+          ),
+        ), */
         AnimatedAlign(
           duration: Duration(milliseconds: 300),
           alignment: _alignment,

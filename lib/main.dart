@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primarySwatch: Colors.blue,
+          primarySwatch: Colors.green,
           textSelectionTheme: TextSelectionThemeData(cursorColor: Colors.black),
           textTheme: TextTheme(
             subtitle1: TextStyle(color: Colors.black), //<-- SEE HERE

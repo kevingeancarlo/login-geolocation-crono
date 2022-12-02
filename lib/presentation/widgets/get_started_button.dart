@@ -40,11 +40,11 @@ class _GetStartedButtonState extends State<GetStartedButton> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "Acceder",
+                  "Acceso al cronograma",
                   style: TextStyle(
                       fontWeight: FontWeight.w600,
                       color: Colors.black,
-                      fontSize: 19),
+                      fontSize: 13),
                 ),
                 SizedBox(width: 15),
                 Icon(
