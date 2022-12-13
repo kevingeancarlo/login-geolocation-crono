@@ -93,7 +93,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               },
                               onAnimatinoEnd: () async {
                                 await Future.delayed(
-                                    Duration(milliseconds: 500));
+                                    Duration(milliseconds: 100));
                                 setState(() {
                                   loadingBallAppear = true;
                                 });
@@ -107,7 +107,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
               ),
       ),
-      floatingActionButton: FloatingActionButton(
+      /* floatingActionButton: FloatingActionButton(
         onPressed: () {
           Navigator.push(
             context,
@@ -116,7 +116,7 @@ class _LoginScreenState extends State<LoginScreen> {
         },
         backgroundColor: Colors.green,
         child: const Icon(Icons.navigation_sharp),
-      ),
+      ), */
     );
   }
 }
