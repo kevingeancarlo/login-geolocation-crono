@@ -50,7 +50,7 @@ List<Message> staticMessages = [
     image: "assets/images/avatar_3.png",
   ),
   Message(
-    contact: "Jamil de Paul",
+    contact: "Rodrigo de Paul",
     messageTitle: "Técnico II",
     message: "Disponible toda la semana, excepto el jueves",
     date: "3 Dic",

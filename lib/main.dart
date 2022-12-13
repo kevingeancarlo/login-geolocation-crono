@@ -1,4 +1,4 @@
-import 'package:animated_login/presentation/login_screen.dart';
+import 'package:animated_login/presentation/widgets/login_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'presentation/widgets/messages_list.dart';
